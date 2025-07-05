@@ -18,7 +18,7 @@ const PlanetScene = () => {
           AIQuantify
         </h1>
         <p className="text-gray-300 text-lg mt-4 tracking-wide">
-          🌐 Empowering Civil Engineering with Quantified Intelligence.
+          🌐 Empowering the field of Civil Engineering with Quantified Intelligence.
         </p>
         <p className="text-sm text-gray-400 mt-1">🚀 Coming Soon...</p>
       </div>
