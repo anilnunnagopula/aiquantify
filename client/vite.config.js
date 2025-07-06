@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  // just let Netlify resolve paths normally
+  base: "/", // ✅ THIS IS KEY
   build: {
     outDir: "dist",
   },
