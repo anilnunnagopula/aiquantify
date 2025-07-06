@@ -1,8 +1,7 @@
-// vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "./", // ← THIS IS THE MAGICAL PATH FIX
+  base: "", // ← Empty string or use `./` (safe for Netlify)
 });
