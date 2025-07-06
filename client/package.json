@@ -2,10 +2,9 @@
   "name": "aiquantify-client",
   "version": "0.0.1",
   "scripts": {
-    "start": "vite",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "npx vite build",
+    "start": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.23.0",
